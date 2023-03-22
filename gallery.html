@@ -5,6 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .grid-container {
+          display: grid;
+          justify-content: space-evenly;
+          grid-template-columns: repeat(9,1fr) ; 
+          grid-template-rows: repeat(9,5vw) ; 
+          grid-gap: 50px;
+          background-color: #2196F3;
+          padding: 10px;
+        }
+        .grid-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+       
+        </style>
+        <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
     <header>
@@ -13,38 +31,40 @@
         </h1>
     </header>
       <br>
-      <div id="alarm">
+ <div class="grid-container">
+      <div class="alarm">
           <img src="WhatsApp Image 2023-03-21 at 21.36.21.jpg" alt="alarm" width="400" height="400">
       </div>
       <br>
-      <div id="checklist">
+      <div class="checklist">
           <img src="z.jpg" alt="checklist" width="500" height="400" download>
       </div>
       <br>
-      <div id="life">
+      <div class="life">
           <img src="y.jpg" alt="life" width="400" height="400">
       </div>
-      <div id="chill area">
+      <div class="chillarea">
           <img src="c.jpg" alt="chill area" width="400" height="400">
       </div>
       <br>
-      <div id="hostel">
+      <div class="hostel">
           <img src="h.jpg" alt="hostels" width="400" height="400">
       </div>
       <br>
-      <div id="lib1">
+      <div class="lib1">
           <img src="b.jpg" alt="lib1" width="400" height="400">
       </div>
       <br>
-      <div id="lib2">
+      <!-- <div class="lib2">
           <img src="t.jpg" alt="lib2" width="500" height="400">
       </div>
       <br>
-      <div id="lib3">
+      <div class="lib3">
           <img src="a.jpg" alt="lib3" width="400" height="400">
       </div>
-      <div id="lib">
+      <div class="lib">
         <img src="library.jpeg" alt="library" width="400" height="200">
-    </div>
+    </div> -->
+</div>
 </body>
 </html>
